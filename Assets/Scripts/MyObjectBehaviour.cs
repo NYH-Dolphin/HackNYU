@@ -17,9 +17,9 @@ namespace DefaultNamespace
         Attire,
         Headphone,
         Hygiene,
-
-
+            
         // Other Stuffs many many
+        Others,
     }
 
     public class MyObjectBehaviour : MonoBehaviour
@@ -65,8 +65,7 @@ namespace DefaultNamespace
         {
             if (bag != null && !bag.full)
             {
-                bag.RegisterObject(obj);
-
+                bag.RegisterObject(obj, GetComponent<SpriteRenderer>());
                 Destroy(gameObject);
             }
         }

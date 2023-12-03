@@ -5,26 +5,28 @@ namespace DefaultNamespace
     public class BagBehaviour : MonoBehaviour
     {
         private static int _fullNum;
-        private MyObject _myObject = MyObject.Empty;
+        private SpriteRenderer _sr;
+        [HideInInspector] public MyObject myObject = MyObject.Empty;
 
-        public bool full => _myObject != MyObject.Empty;
+        public bool full => myObject != MyObject.Empty;
 
-        public void RegisterObject(MyObject obj)
+
+        private void Start()
         {
-            _myObject = obj;
+            _sr = transform.GetChild(0).GetComponent<SpriteRenderer>();
+        }
+
+        public void RegisterObject(MyObject obj, SpriteRenderer sr)
+        {
+            myObject = obj;
+            _sr.sprite = sr.sprite;
             OnHaveItem();
             if (++_fullNum == 8)
             {
-                OnMiniGameEnd();
+                KnapsackManager.Instance.OnMiniGameEnd();
             }
-
-            Debug.Log(_myObject.ToString());
         }
 
-
-        public void OnMiniGameEnd()
-        {
-        }
 
         public void OnSelected()
         {
