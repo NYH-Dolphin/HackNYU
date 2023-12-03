@@ -1105,7 +1105,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1755499608}
   selectedCommands:
-  - {fileID: 1755499619}
+  - {fileID: 1755499616}
   variables: []
   description: 
   stepPause: 0
@@ -1133,7 +1133,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 248
     y: 74
-    width: 77.2
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1243,7 +1243,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: What a perfect day!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 713274595}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1270,7 +1270,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Yay! I managed to get here on time.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 713274595}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: And the rain stopped!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 713274595}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
