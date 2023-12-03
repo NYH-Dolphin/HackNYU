@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace DefaultNamespace
 {
@@ -46,7 +47,7 @@ namespace DefaultNamespace
 
         public void OnMiniGameEnd()
         {
-            Debug.Log("yees!");
+            SceneManager.LoadScene("Next");
         }
     }
 }

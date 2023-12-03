@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace DefaultNamespace
 {
@@ -22,7 +23,7 @@ namespace DefaultNamespace
         
         private void OnTriggerEnter2D(Collider2D other)
         {
-            Debug.Log(other.name);
+            SceneManager.LoadScene("Fail");
         }
         
     }

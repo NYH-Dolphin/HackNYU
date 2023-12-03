@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace DefaultNamespace
 {
@@ -42,12 +43,12 @@ namespace DefaultNamespace
             {
                 if (!bag.full || bag.myObject == MyObject.Empty || bag.myObject == MyObject.Others)
                 {
-                    Debug.Log("Noooo");
+                    SceneManager.LoadScene("Fail");
                     return;
                 }
             }
 
-            Debug.Log("yees!");
+            SceneManager.LoadScene("Success");
         }
     }
 }
