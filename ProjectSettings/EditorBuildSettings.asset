@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: ba6d62832ca12de4e983cb3d1804557e
+  - enabled: 1
+    path: Assets/Scenes/morning.unity
+    guid: 454431a695baa164db17ae4c88e9d4f7
+  - enabled: 1
+    path: Assets/Scenes/Dolphin.unity
+    guid: 352f23e803c55c94d972a32edeb6d0d6
+  - enabled: 1
+    path: Assets/Scenes/fail.unity
+    guid: 3f4422d761a5a104c86871593dda5cd6
   m_configObjects: {}
