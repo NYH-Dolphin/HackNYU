@@ -23,6 +23,7 @@ namespace DefaultNamespace
             OnHaveItem();
             if (++_fullNum == 8)
             {
+                _fullNum = 0;
                 KnapsackManager.Instance.OnMiniGameEnd();
             }
         }

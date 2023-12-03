@@ -1131,7 +1131,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 248
     y: 74
-    width: 77
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1266,7 +1266,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: start
+    stringVal: menu
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!1 &1816979883

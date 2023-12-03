@@ -32,7 +32,7 @@ namespace DefaultNamespace
 
         IEnumerator CountDown()
         {
-            for (int i = 30; i >= 0; i--)
+            for (int i = 20; i >= 0; i--)
             {
                 time.text = "Time Left: " + i + "s";
                 yield return new WaitForSeconds(1f);
@@ -47,7 +47,7 @@ namespace DefaultNamespace
 
         public void OnMiniGameEnd()
         {
-            SceneManager.LoadScene("Next");
+            SceneManager.LoadScene("ending");
         }
     }
 }

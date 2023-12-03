@@ -989,6 +989,7 @@ GameObject:
   - component: {fileID: 1755499617}
   - component: {fileID: 1755499619}
   - component: {fileID: 1755499620}
+  - component: {fileID: 1755499621}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1023,7 +1024,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1755499608}
   selectedCommands:
-  - {fileID: 1755499620}
+  - {fileID: 1755499617}
   variables: []
   description: 
   stepPause: 0
@@ -1051,7 +1052,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 248
     y: 74
-    width: 77
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1067,6 +1068,7 @@ MonoBehaviour:
   - {fileID: 1755499620}
   - {fileID: 1755499617}
   - {fileID: 1755499616}
+  - {fileID: 1755499621}
   suppressAllAutoSelections: 0
 --- !u!114 &1755499609
 MonoBehaviour:
@@ -1184,7 +1186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  storyText: WAIT. This subway cart is leaking and its getting into my bag!
+  storyText: WAIT. It's raining outside!
   description: 
   character: {fileID: 713274595}
   portrait: {fileID: 0}
@@ -1275,6 +1277,25 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1755499621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Rain
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &1789814996
 GameObject:
   m_ObjectHideFlags: 0

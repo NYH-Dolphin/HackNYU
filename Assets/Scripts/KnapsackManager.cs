@@ -43,12 +43,12 @@ namespace DefaultNamespace
             {
                 if (!bag.full || bag.myObject == MyObject.Empty || bag.myObject == MyObject.Others)
                 {
-                    SceneManager.LoadScene("Fail");
+                    SceneManager.LoadScene("fail");
                     return;
                 }
             }
 
-            SceneManager.LoadScene("Success");
+            SceneManager.LoadScene("subway");
         }
     }
 }
