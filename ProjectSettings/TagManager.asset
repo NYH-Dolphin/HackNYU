@@ -3,12 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Laser
+  - Enemy
+  - MyObject
+  - Bag
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - MyObject
   - Water
   - UI
   - 
