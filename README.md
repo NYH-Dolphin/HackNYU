@@ -1,6 +1,10 @@
 # Perfect Day - Hack NYU 
 ![miya1](https://github.com/NYH-Dolphin/HackNYU/assets/77932544/72c0f1e3-0e52-4900-b4f7-00286e71c767)
 
+## Try our game Online!!
+
+Website Link: https://nyh-dolphin.itch.io/a-perfect-day
+
 ## Team 
 Team leader: Yuhe Nie 
 Teammates: Amy Ngai, Belinda Weng, Meiyu Zhang
